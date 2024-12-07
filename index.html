@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>empire heavens</title>
+</head>
+<body>
+    <header>
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="logo" onclick="scrollToLogo()">
+                        <img src="images/logo.svg" alt="logo">
+                    </div>
+                    <nav class="head-nav">
+                        <ul class="nav-list">
+                            <li class="nav-item" id="nav-about" onclick="scrollToAbout()">О нас</li>
+                            <li class="nav-item" id="nav-product" onclick="scrollToProduct()">Ассортимент</li>
+                            <li class="nav-item" id="nav-contact" onclick="scrollToContact()">Контакты</li>
+                        </ul>
+                        <div class="menu1">
+                            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                            <label for="burger-checkbox" class="burger"></label>
+                            <ul class="menu-list">
+                                <li><a href="" class="menu-item">Главная</a><li>
+                                <li><a href="" class="menu-item">О нас</a><li>
+                                <li><a href="" class="menu-item">Ассортимент</a><li>
+                                <li><a href="" class="menu-item">Контакты</a><li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main__wrapper">
+                <section class="about" id="about">
+                    <h2>О нас</h2>
+                    <p>
+                        Empire Heavens — воплощение роскоши и элегантности в мире отделочных материалов. Мы предлагаем эксклюзивные коллекции плитки и натурального камня, созданные с использованием передовых технологий и лучших природных материалов. Каждая плитка — это произведение искусства, способное преобразить ваш дом, придать ему неповторимый стиль и создать атмосферу комфорта и уюта. Выбирая Empire Heavens, вы выбираете качество, долговечность и безупречный дизайн.
+                    </p>
+                </section>
+                <section class="portfolio">
+                    <h2>Примеры работ</h2>
+                    <div class="exemple_slider">
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide"><img src="images/back.jpg" alt=""></div>
+                              <div class="swiper-slide"><img src="images/back.jpg" alt=""></div>
+                              <div class="swiper-slide"><img src="images/back.jpg" alt=""></div>
+        
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                          
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                          
+                            <!-- If we need scrollbar -->
+                            <div class="swiper-scrollbar"></div>
+                          </div>
+                    </div>
+                </section>
+                <section class="products" id="product">
+                    <div class="products_wrapper">
+                        <div class="product">
+                            <div class="product_img">
+                                <img src="images/back.jpg" alt="">
+                            </div>
+                            <div class="product_name">
+                                <h3>Kаменная стена</h3>
+                            </div>
+                            <div class="product_price">
+                                <p>2700 ₽ / m3</p>
+                            </div>
+                            <div class="product_but">
+                                <button class="but_order">Заказать</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_img">
+                                <img src="images/back.jpg" alt="">
+                            </div>
+                            <div class="product_name">
+                                <h3></h3>
+                            </div>
+                            <div class="product_price">
+
+                            </div>
+                            <div class="product_but">
+                                <button class="but_order">Заказать</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_img">
+                                <img src="images/back.jpg" alt="">
+                            </div>
+                            <div class="product_name">
+                                <h3></h3>
+                            </div>
+                            <div class="product_price">
+
+                            </div>
+                            <div class="product_but">
+                                <button class="but_order">Заказать</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_img">
+                                <img src="images/back.jpg" alt="">
+                            </div>
+                            <div class="product_name">
+                                <h3></h3>
+                            </div>
+                            <div class="product_price">
+
+                            </div>
+                            <div class="product_but">
+                                <button class="but_order">Заказать</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_img">
+                                <img src="images/back.jpg" alt="">
+                            </div>
+                            <div class="product_name">
+                                <h3></h3>
+                            </div>
+                            <div class="product_price">
+
+                            </div>
+                            <div class="product_but">
+                                <button class="but_order">Заказать</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_img">
+                                <img src="images/back.jpg" alt="">
+                            </div>
+                            <div class="product_name">
+                                <h3></h3>
+                            </div>
+                            <div class="product_price">
+
+                            </div>
+                            <div class="product_but">
+                                <button class="but_order">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+        </div>        
+    </main>
+    <footer id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3>О компании</h3>
+              <p>Краткое описание вашей компании и ее деятельности.</p>
+            </div>
+            <div class="col">
+              <h3>Контакты</h3>
+              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p>Телефон: +7 (123) 456-78-90</p>
+              <p>Адрес: р.п Средняя Ахтуба</p>
+            </div>
+            <div class="col">
+              <h3>Полезные ссылки</h3>
+              <ul>
+                <li><a href="privacy.html">Политика конфиденциальности</a></li>
+                <li><a href="terms.html">Условия использования</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+              </ul>
+              <h3>Социальные сети</h3>
+              <div class="social-icons">
+                <a href="#" target="_blank"><img src="images/icons/telegram.svg" alt="Telegram"></a>
+                <a href="#" target="_blank"><img src="images/icons/avito.png" alt="Avito"></a>
+                <a href="#" target="_blank"><img src="images/icons/vk.svg" alt="Вконтакте"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 Empire Heavens. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="js/swiper.js"></script>
+</body>
+</html>
